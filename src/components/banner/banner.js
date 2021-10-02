@@ -8,7 +8,7 @@ class Banner extends React.Component {
     componentDidMount(){
         axios.get('https://api.themoviedb.org/3/trending/all/week?api_key=58e4b2b04bbc53fad8defcc06f6be8f8&language=en-US').then((res)=>{
             console.log(res.data.results);
-            this.setState({data:res.data.results[10]})
+            this.setState({data:res.data.results[7]})
         })
     }
     render() { 
