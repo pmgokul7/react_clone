@@ -1,0 +1,28 @@
+.poster{
+    padding-left: 20px;
+    background-color: #000;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster h1{
+    color: #fff;
+    margin: 10px 0 15px 10px ;
+}
+.posters{
+    display: flex;
+    overflow: scroll;
+}
+
+.posters .big{
+height: 200px;
+    margin: 0px 10px 10px 10px;
+}
+.posters .small{
+    height: 150px;
+    margin: 0px 10px 10px 10px;
+}
+/* .youtube{
+    display: none;
+} */

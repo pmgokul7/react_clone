@@ -1,0 +1,15 @@
+.navbar_component{
+    box-sizing: border-box;
+    width: 100%;
+  position: fixed;
+   background-color: transparent;
+   padding: 20px 20px 20px 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.navbar_component #avathar{
+    height: 30px;
+}
+.navbar_component #logo{
+    height: 20px;
+}
